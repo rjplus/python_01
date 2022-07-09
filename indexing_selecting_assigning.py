@@ -1,3 +1,4 @@
+# working with data in Python is how to go about selecting the data points relevant to you quickly and effectively
 import pandas as pd
 reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
 pd.set_option('max_rows', 5)
